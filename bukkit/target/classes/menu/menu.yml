@@ -1,0 +1,73 @@
+SETTINGS-GLOBAL:
+  TITLE: "&8Global Settings ┃ 1/1"
+  SIZE: 6
+  TAB:
+    ENABLED: true
+    ITEM: "PAINTING"
+    DATA: 0
+    DISPLAY-NAME: "&aTablist"
+    LORE-ENABLE:
+      - "&7Change if you want to see the tablist."
+      - ""
+    LORE-DISABLE:
+      - "&7Change if you want to see the tablist."
+      - ""
+    SLOT: 19
+  SCOREBOARD:
+    ENABLED: true
+    ITEM: "ITEM_FRAME"
+    DATA: 0
+    DISPLAY-NAME: "&aScoreboard"
+    LORE-ENABLE:
+      - "&7Change if you want to see the scoreboard."
+      - ""
+    LORE-DISABLE:
+      - "&7Change if you want to see the scoreboard."
+      - ""
+    SLOT: 20
+  TIME-WORLD:
+    ENABLED: true
+    ITEM: "WATCH"
+    DATA: 0
+    DISPLAY-NAME: "&aScoreboard"
+    LORE-ENABLE:
+      - "&7Change if you want to see the scoreboard."
+      - ""
+    LORE-DISABLE:
+      - "&7Change if you want to see the scoreboard."
+      - ""
+    SLOT: 21
+  ANNOUNCEMENTS:
+    ENABLED: true
+    ITEM: "NETHER_STAR"
+    DATA: 0
+    DISPLAY-NAME: "&aAnnouncements"
+    LORE-ENABLE:
+      - "&7Change if you want to see the scoreboard."
+      - ""
+    LORE-DISABLE:
+      - "&7Change if you want to see the scoreboard."
+      - ""
+    SLOT: 22
+SETTINGS-CHAT:
+  TITLE: "&8Global Settings"
+  SIZE: 6
+  GLOBAL-CHAT:
+    ENABLED: true
+    ITEM: "SKULL_ITEM"
+    DATA: 0
+    COMMAND: "tdm"
+    DISPLAY-NAME: "&cDeath Messages"
+    LORE-ENABLE:
+      - ""
+      - "&7Do you want to see"
+      - "&7death messages?"
+      - ""
+      - "&a\u00BB &7Enabled"
+    LORE-DISABLE:
+      - ""
+      - "&7Do you want to see"
+      - "&7death messages?"
+      - ""
+      - "&c\u00BB &7Disabled"
+    SLOT: 11

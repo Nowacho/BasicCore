@@ -4,21 +4,248 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbc9ed7b-b4c3-4d23-bfc7-d5ab54d527db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/handler/ChatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/ItemBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    <list default="true" id="99b31909-4f99-4dfc-9da8-82c2bbb003c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/bukkit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/chat/HubCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/chat/JoinCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/chat/PingCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/chat/TestCosmeticCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/chat/namemc/CheckVoteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/chat/namemc/VoteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/staff/AnnounceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/staff/CountryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/staff/InstanceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/staff/PlayerInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/staff/coins/CoinsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/commands/staff/coins/CoinsManagerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/database/redis/RedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/database/redis/payload/Payload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/database/redis/payload/RedisListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/database/redis/payload/RedisMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/enums/WorldTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/handler/menu/SettingsMenu2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/handler/menu/settings/SettingsChatMenu2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/cosmetics/utils/second/SecondEffectsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/FriendJsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/FriendJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/commands/FriendAcceptCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/commands/FriendAddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/commands/FriendCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/menu/FriendSettingsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/menu/ViewFriendsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/request/FriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/request/FriendRequestJsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/friend/request/FriendRequestJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/player/PlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/player/PlayerDataLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/rank/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/rank/RankHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/shop/rank/impl/DecoyButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/shop/rank/impl/ShadowButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/Clickable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/command/misc/FrozenCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/command/misc/ParameterType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/json/JsonChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/json/JsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/json/JsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/menu/button/AirButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/menu/button/PageInfoButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/resources/menu/menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/resources/menu/store/store.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/resources/messages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/command/basic/ReloadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/command/basic/VersionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/command/chat/StreamCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/command/staff/WhoisCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/handler/VipChatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/player/PlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/player/PlayerDataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/util/FileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/resources/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/AquaCore.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/Fx.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ProtocolLib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/Spigot-1.7.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ViaVersion.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/bukkitapi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/Basic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/commands/CommandHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/commands/basic/BasicExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/commands/basic/argument/ReloadArgument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/commands/basic/argument/VersionArgument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/handler/ChatHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/integrations/PlaceholderAPIExpansion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/integrations/PlaceholderAPIHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/misc/BasicUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/misc/lunarclient/LunarClientRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/AssambleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/Assemble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/AssembleAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/AssembleBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/AssembleBoardEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/AssembleListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/AssembleStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/AssembleThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/events/AssembleBoardCreateEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/events/AssembleBoardCreatedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/scoreboard/events/AssembleBoardDestroyEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/TabAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/TabType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/IETablist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/TabListCommons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/TablistManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/playerversion/IPlayerVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/playerversion/PlayerVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/playerversion/PlayerVersionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/playerversion/impl/PlayerVersionDefaultImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/playerversion/impl/PlayerVersionProtocolLibImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/playerversion/impl/PlayerVersionViaVersionImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/utils/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/utils/SkinTexture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/utils/TabColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/utils/TabEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/impl/utils/TabLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/interfaces/IEAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/interfaces/IEHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/tablist/protocol/ProtocolLibTabImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/Animation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/CC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/ChatUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/FileConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/ItemBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/JavaUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/ScoreboardAnimated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/TaskUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/callback/Callback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/callback/ReturnableTypeCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/callback/TypeCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/command/BaseCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/command/CommandArgument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/cuboid/Cuboid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/cuboid/CuboidDirection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/inventory/InventoryMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/inventory/MakerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/ButtonListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/buttons/AirButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/buttons/BackButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/buttons/CloseButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/buttons/PageInfoButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/pagination/JumpToPageButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/pagination/PageButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/pagination/PaginatedMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/menu/pagination/ViewAllPagesMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scoreboard.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/settings.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tab.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Basic-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/Basic-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/commands/CommandHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/commands/basic/BasicExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/commands/basic/argument/ReloadArgument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/commands/basic/argument/VersionArgument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/handler/ChatHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/integrations/PlaceholderAPIExpansion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/integrations/PlaceholderAPIHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/misc/BasicUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/misc/lunarclient/LunarClientRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/AssambleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/Assemble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/AssembleAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/AssembleBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/AssembleBoardEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/AssembleListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/AssembleStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/AssembleThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/events/AssembleBoardCreateEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/events/AssembleBoardCreatedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/scoreboard/events/AssembleBoardDestroyEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/TabAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/TabType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/IETablist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/TabListCommons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/TablistManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/playerversion/IPlayerVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/playerversion/PlayerVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/playerversion/PlayerVersionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/playerversion/impl/PlayerVersionDefaultImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/playerversion/impl/PlayerVersionProtocolLibImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/playerversion/impl/PlayerVersionViaVersionImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/utils/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/utils/SkinTexture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/utils/TabColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/utils/TabEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/impl/utils/TabLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/interfaces/IEAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/interfaces/IEHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/protocol/ProtocolLibTabImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/tablist/protocol/ProtocolLibTabImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/Animation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/CC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/ChatUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/FileConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/ItemBuilder$Glow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/ItemBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/JavaUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/ScoreboardAnimated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/TaskUtil$Callable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/TaskUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/callback/Callback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/callback/ReturnableTypeCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/callback/TypeCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/command/BaseCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/command/CommandArgument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/cuboid/Cuboid$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/cuboid/Cuboid$LocationCuboidIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/cuboid/Cuboid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/cuboid/CuboidDirection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/cuboid/CuboidDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/inventory/InventoryMaker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/inventory/InventoryMaker$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/inventory/InventoryMaker$ClickableItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/inventory/InventoryMaker$Inventory2D$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/inventory/InventoryMaker$Inventory2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/inventory/InventoryMaker$InventoryMakerHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/inventory/InventoryMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/inventory/MakerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/Button$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/buttons/AirButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/buttons/BackButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/buttons/CloseButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/buttons/PageInfoButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/pagination/JumpToPageButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/pagination/PageButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/pagination/PaginatedMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/wacho/basic/utils/menu/pagination/ViewAllPagesMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scoreboard.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/settings.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tab.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +255,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -36,16 +265,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/wacho/basic/store/menu/PermRanksMenu.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/wacho/basic/store/menu/PunishmentShopMenu.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/wacho/basic/store/menu/TempRanksMenu.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/wacho/basic/utils/ItemBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/BasicAPI.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/database/mongo/MongoManager.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/handler/PlayerHandler.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/handler/PunishmentsHandler.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/misc/tag/TagManager.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/player/PlayerData.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/shop/rank/button/RankPurchasableButton.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/bukkit/src/main/java/dev/wacho/basic/utils/Utils.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/proxy/src/main/java/dev/wacho/proxy/BasicProxy.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2XG2RaY0SqRAKyFJQfR26qpf1Sx" />
+  <component name="ProjectId" id="2YYoI82SOQhtEjltoK4thO1RbxF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -53,55 +290,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Basic package" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="package" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thema\OneDrive\Escritorio\Velnox\Basic\bukkit\src\main\resources\menu" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cbc9ed7b-b4c3-4d23-bfc7-d5ab54d527db" name="Changes" comment="" />
-      <created>1698201517675</created>
+      <changelist id="99b31909-4f99-4dfc-9da8-82c2bbb003c3" name="Changes" comment="" />
+      <created>1700711792840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698201517675</updated>
+      <updated>1700711792840</updated>
     </task>
     <servers />
   </component>

@@ -1,0 +1,7 @@
+dev\wacho\basic\player\PlayerData$1.class
+dev\wacho\basic\utils\cooldown\CooldownStartingEvent.class
+dev\wacho\basic\database\mongo\MongoManager.class
+dev\wacho\basic\events\CustomEvent.class
+dev\wacho\basic\events\PlayerBase.class
+dev\wacho\basic\commands\staff\PlayerInfoCommand.class
+dev\wacho\basic\utils\cooldown\Cooldown.class

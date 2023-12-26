@@ -1,0 +1,12 @@
+CUSTOM:
+  COSMETICS:
+    ENABLED: true
+    ITEM:
+      HEAD: ""
+      NAME: "&cCosmetics &7(Right Click)"
+      DESCRIPTION: []
+      MATERIAL: "ENDER_CHEST"
+      DATA: 0
+      SLOT: 4
+      ENCHANTED: false
+    COMMANDS: ["cosmetics"]

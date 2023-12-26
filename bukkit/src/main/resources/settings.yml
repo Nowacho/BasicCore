@@ -1,0 +1,72 @@
+# ~ Main Settings
+
+SERVER-LOBBY: Lobby
+BOARD-ENABLED: false
+TAB-ENABLED: false
+
+# ~ Database Settings
+
+MONGO:
+  HOST: "127.0.0.1"
+  PORT: 27017
+  DATABASE: "admin"
+  AUTH:
+    ENABLED: true
+    USERNAME: ""
+    PASSWORD: ""
+    AUTH-DATABASE: "admin"
+
+# ~ Chat Settings
+
+CHAT:
+  ENABLED: true
+  FORMAT: "%basic_player_tag% %vault_prefix%%player_name%&7: &f%message%"
+
+# ~ Join Message Settings
+
+JOIN-MESSAGE:
+  ENABLED: true
+  SOUND:
+    ENABLED: true
+    SOUND: "NOTE_PLING"
+  MESSAGE:
+    - ""
+    - "&fWelcome %vault_prefix%%player_name% &fto the &c&lVelnox Network&f!"
+    - ""
+    - "&a■ Store: &fstore.velnox.club"
+    - "&9■ Discord: &fdiscord.velnox.club"
+    - "&b■ Twitter: &f@VelnoxClub"
+    - ""
+    - "&7Use the compass to travel between our diferent gamemodes!"
+
+# ~ Join Title Settings
+
+JOIN-TITLES:
+  ENABLED: true
+  TIME: 8 # MilliSeconds
+  TITLE: "&b&lSummer discount"
+  SUBTITLE: "&ftienda.velnox.club"
+
+# ~ NameMC Settings
+
+NAME-MC-CHECK:
+  ENABLED: true
+  SOUND: "ORB_PICKUP"
+  MESSAGE:
+    - "&7&m----------------------------------------------------"
+    - "&fVote for us in NameMC to get the &bVerified &fPrefix!"
+    - "&8 ▸ &bhttps://namemc.com/server/velnox.club"
+    - "&7&m----------------------------------------------------"
+  SERVER-IP: "velnox.club"
+  COMMAND: "setperm %player% tag.verfied true"
+
+# ~ Launch Pad Settings
+
+LAUNCH-PAD:
+  ENABLED: true
+  MATERIAL: IRON_PLATE
+  SOUND-ENABLED: true
+  SOUND: FIREWORK_LARGE_BLAST
+  JUMP:
+    MULTIPLY: 2.0
+    HEIGHT: 1.5

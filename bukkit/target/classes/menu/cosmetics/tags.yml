@@ -1,0 +1,586 @@
+menu_title: '&8Desafíos del diamante'
+open_command:
+  - diamondchallenges
+size: 27
+
+items:
+  Back:
+    material: RED_BED
+    slot: 0
+    display_name: '&cVolver'
+    lore: ''
+    left_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[openguimenu] Challenges'
+    right_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[openguimenu] Challenges'
+  
+  DiamondChallenge1Claimed:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 10
+    priority: 1
+    amount: 1
+    display_name: '&aDesafío del Diamante #1'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 500
+        Pex:
+          type: has permission
+          permission: 'diamond.challenges.bar.1'
+    lore:
+      - '&7Recompensa:'
+      - '&e+ 1000$ Coins'
+      - '&d+ 5 Exp Levels'
+      - '&a+ Enchanted Diamond Recipe'
+      - ''
+      - '&7Progreso: &b%statistic_mine_block:diamond_ore%/500'
+      - ''
+      - '&aYa reclamado.'
+  DiamondChallenge1Completed:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 10
+    priority: 2
+    amount: 1
+    display_name: '&aDesafío del Diamante #1'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 500
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 1000$ Coins'
+      - '&d+ 5 Exp Levels'
+      - '&a+ Enchanted Diamond Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/500'
+      - ''
+      - '&8&l▪ &7Estado: &2&lCOMPLETADO'
+      - ''
+      - '&eClick to claim'
+    left_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #1.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &aEnchanted Diamond.'
+      - '[console] setperm %player_name% customcrafting.craft.diamond_collection.enchanteddiamond true Survival'
+      - '[console] setperm %player_name% diamond.challenges.bar.1 true Survival'
+      - '[console] eco give %player_name% 1000'
+      - '[console] essentials:xp give %player_name% 5L'
+    right_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #1.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &aEnchanted Diamond.'
+      - '[console] setperm %player_name% customcrafting.craft.diamond_collection.enchanteddiamond true Survival'
+      - '[console] setperm %player_name% diamond.challenges.bar.1 true Survival'
+      - '[console] eco give %player_name% 1000'
+      - '[console] essentials:xp give %player_name% 5L'
+  'Diamond-Challenge-1-In-Progress':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
+    slot: 10
+    priority: 3
+    amount: 1
+    display_name: '&aDesafío del Diamante #1'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 1000$ Coins'
+      - '&d+ 5 Exp Levels'
+      - '&a+ Enchanted Diamond Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/500'
+      - ''
+      - '&8&l▪ &7Estado: &c&lEN CURSO'
+      - ''
+  'Diamond-Challenge-2-Claimed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 11
+    priority: 1
+    amount: 2
+    display_name: '&aDesafío del Diamante #2'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 1000
+        Pex:
+          type: has permission
+          permission: 'diamond.challenges.bar.2'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 2000$ Coins'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/1000'
+      - ''
+      - '&8&l▪ &7Estado: &A&lRECLAMADO'
+      - ''
+  'Diamond-Challenge-2-Completed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 11
+    priority: 2
+    amount: 2
+    display_name: '&aDesafío del Diamante #2'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 1000
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 2000$ Coins'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/1000'
+      - ''
+      - '&8&l▪ &7Estado: &2&lCOMPLETADO'
+      - ''
+      - '&eClick to claim'
+    left_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #2.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.2'
+      - '[console] eco give %player_name% 2000'
+    right_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #2.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.2'
+      - '[console] eco give %player_name% 2000'
+  'Diamond-Challenge-2-In-Progress':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
+    slot: 11
+    priority: 3
+    amount: 2
+    display_name: '&aDesafío del Diamante #2'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 2000$ Coins'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/1000'
+      - ''
+      - '&8&l▪ &7Estado: &c&lEN CURSO'
+      - ''
+  'Diamond-Challenge-3-Claimed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 12
+    priority: 1
+    amount: 3
+    display_name: '&aDesafío del Diamante #3'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 2000
+        Pex:
+          type: has permission
+          permission: 'diamond.challenges.bar.3'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 4000$ Coins'
+      - '&d+ 10 Exp Levels'
+      - '&a+ Protection 4 Book Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/2000'
+      - ''
+      - '&8&l▪ &7Estado: &A&lRECLAMADO'
+      - ''
+  'Diamond-Challenge-3-Completed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 12
+    priority: 2
+    amount: 3
+    display_name: '&aDesafío del Diamante #3'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 2000
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 4000$ Coins'
+      - '&d+ 10 Exp Levels'
+      - '&a+ Protection 4 Book Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/2000'
+      - ''
+      - '&8&l▪ &7Estado: &2&lCOMPLETADO'
+      - ''
+      - '&eClick to claim'
+    left_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #3.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &aProtection 4 Book.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.3'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.protection4'
+      - '[console] eco give %player_name% 4000'
+      - '[console] essentials:xp give %player_name% 10L'
+    right_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #3.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &aProtection 4 Book.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.3'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.protection4'
+      - '[console] eco give %player_name% 4000'
+      - '[console] essentials:xp give %player_name% 10L'
+  'Diamond-Challenge-3-In-Progress':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
+    slot: 12
+    priority: 3
+    amount: 3
+    display_name: '&aDesafío del Diamante #3'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 4000$ Coins'
+      - '&d+ 10 Exp Levels'
+      - '&a+ Protection 4 Book Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/2000'
+      - ''
+      - '&8&l▪ &7Estado: &c&lEN CURSO'
+      - ''
+  'Diamond-Challenge-4-Claimed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 13
+    priority: 1
+    amount: 4
+    display_name: '&aDesafío del Diamante #4'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 4000
+        Pex:
+          type: has permission
+          permission: 'diamond.challenges.bar.4'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 8000$ Coins'
+      - '&9+ Enchanted Diamond Block Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/4000'
+      - ''
+      - '&8&l▪ &7Estado: &A&lRECLAMADO'
+      - ''
+  'Diamond-Challenge-4-Completed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 13
+    priority: 2
+    amount: 4
+    display_name: '&aDesafío del Diamante #4'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 4000
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 8000$ Coins'
+      - '&9+ Enchanted Diamond Block Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/4000'
+      - ''
+      - '&8&l▪ &7Estado: &2&lCOMPLETADO'
+      - ''
+      - '&eClick to claim'
+    left_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #4.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &9Enchanted Diamond Block.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.4'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondblock'
+      - '[console] eco give %player_name% 8000'
+    right_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #4.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &9Enchanted Diamond Block.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.4'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondblock'
+      - '[console] eco give %player_name% 8000'
+  'Diamond-Challenge-4-In-Progress':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
+    slot: 13
+    priority: 3
+    amount: 4
+    display_name: '&aDesafío del Diamante #4'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 8000$ Coins'
+      - '&9+ Enchanted Diamond Block Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/4000'
+      - ''
+      - '&8&l▪ &7Estado: &c&lEN CURSO'
+      - ''
+  'Diamond-Challenge-5-Claimed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 14
+    priority: 1
+    amount: 5
+    display_name: '&aDesafío del Diamante #5'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 8000
+        Pex:
+          type: has permission
+          permission: 'diamond.challenges.bar.5'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 16000$ Coins'
+      - '&d+ 20 Exp Levels'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/8000'
+      - ''
+      - '&8&l▪ &7Estado: &A&lRECLAMADO'
+      - ''
+  'Diamond-Challenge-5-Completed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 14
+    priority: 2
+    amount: 5
+    display_name: '&aDesafío del Diamante #5'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 8000
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 16000$ Coins'
+      - '&d+ 20 Exp Levels'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/8000'
+      - ''
+      - '&8&l▪ &7Estado: &2&lCOMPLETADO'
+      - ''
+      - '&eClick to claim'
+    left_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #5.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.5'
+      - '[console] eco give %player_name% 16000'
+      - '[console] essentials:xp give %player_name% 20L'
+    right_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #5.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.5'
+      - '[console] eco give %player_name% 16000'
+      - '[console] essentials:xp give %player_name% 20L'
+  'Diamond-Challenge-5-In-Progress':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
+    slot: 14
+    priority: 3
+    amount: 5
+    display_name: '&aDesafío del Diamante #5'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 16000$ Coins'
+      - '&d+ 20 Exp Levels'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/8000'
+      - ''
+      - '&8&l▪ &7Estado: &c&lEN CURSO'
+      - ''
+  'Diamond-Challenge-6-Claimed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 15
+    priority: 1
+    amount: 6
+    display_name: '&aDesafío del Diamante #6'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 16000
+        Pex:
+          type: has permission
+          permission: 'diamond.challenges.bar.6'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 32000$ Coins'
+      - '&5+ Insta Pickaxe Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/16000'
+      - ''
+      - '&8&l▪ &7Estado: &A&lRECLAMADO'
+      - ''
+  'Diamond-Challenge-6-Completed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 15
+    priority: 2
+    amount: 6
+    display_name: '&aDesafío del Diamante #6'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 16000
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 32000$ Coins'
+      - '&5+ Insta Pickaxe Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/16000'
+      - ''
+      - '&8&l▪ &7Estado: &2&lCOMPLETADO'
+      - ''
+      - '&eClick to claim'
+    left_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #6.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &5Insta Pickaxe.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.6'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.instapickaxe'
+      - '[console] eco give %player_name% 32000'
+    right_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #6.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &5Insta Pickaxe.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.6'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.instapickaxe'
+      - '[console] eco give %player_name% 32000'
+  'Diamond-Challenge-6-In-Progress':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
+    slot: 15
+    priority: 3
+    amount: 6
+    display_name: '&aDesafío del Diamante #6'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 32000$ Coins'
+      - '&5+ Insta Pickaxe Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/16000'
+      - ''
+      - '&8&l▪ &7Estado: &c&lEN CURSO'
+      - ''
+  'Diamond-Challenge-7-Claimed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 16
+    priority: 1
+    amount: 7
+    display_name: '&aDesafío del Diamante #7'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 32000
+        Pex:
+          type: has permission
+          permission: 'diamond.challenges.bar.7'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 64000$ Coins'
+      - '&d+ 30 Exp Levels'
+      - '&6+ Enchanted Diamond Armor Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/32000'
+      - ''
+      - '&8&l▪ &7Estado: &A&lRECLAMADO'
+      - ''
+  'Diamond-Challenge-7-Completed':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    slot: 16
+    priority: 2
+    amount: 7
+    display_name: '&aDesafío del Diamante #7'
+    view_requirement:
+      requirements:
+        HasMine:
+          type: '>='
+          input: '%statistic_mine_block:diamond_ore%'
+          output: 32000
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 64000$ Coins'
+      - '&d+ 30 Exp Levels'
+      - '&6+ Enchanted Diamond Armor Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/32000'
+      - ''
+      - '&eClick to claim'
+    left_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #7.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &6Enchanted Diamond Armor.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.7'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondhelmet'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondchestplate'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondleggings'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondboots'
+      - '[console] eco give %player_name% 64000'
+      - '[console] essentials:xp give %player_name% 30L'
+    right_click_commands:
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[close]'
+      - '[message] &a&lCHALLENGES &8&l» &7Has reclamado el &eDesafío Diamante #7.'
+      - '[message] &a&lCHALLENGES &8&l» &7You have learned the crafting: &6Enchanted Diamond Armor.'
+      - '[console] lp user %player_name% permission set diamond.challenges.bar.7'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondhelmet'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondchestplate'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondleggings'
+      - '[console] lp user %player_name% permission set customcrafting.craft.diamond_collection.enchanteddiamondboots'
+      - '[console] eco give %player_name% 64000'
+      - '[console] essentials:xp give %player_name% 30L'
+  'Diamond-Challenge-7-In-Progress':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
+    slot: 16
+    priority: 3
+    amount: 7
+    display_name: '&aDesafío del Diamante #7'
+    lore:
+      - ''
+      - '&7Recompensa:'
+      - '&e+ 64000$ Coins'
+      - '&d+ 30 Exp Levels'
+      - '&6+ Enchanted Diamond Armor Recipe'
+      - ''
+      - '&7Progreso: &c%statistic_mine_block:diamond_ore%/32000'
+      - ''
+      - '&8&l▪ &7Estado: &c&lEN CURSO'
+      - ''    

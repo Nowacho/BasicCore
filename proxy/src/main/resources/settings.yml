@@ -1,0 +1,21 @@
+# ~ Whois Settings
+
+WHOIS-MESSAGE:
+  - "&4&lServerName &7- &fInformation the &c%player_name%"
+  - " "
+  - "&fUuid: &c%uuid%"
+  - "&fCustom Name: &c%customname%"
+  - "&fServer: &c%server%"
+  - "&fIp: &c%ip%"
+  - "&fPing: &c%ping%"
+  - "&fPerms: &c%perms%"
+  - "&fRank: %rank%"
+  - "&fLocation: %location%"
+
+# ~ Vip Settings
+
+VIP:
+  FORMAT:
+    - "&d[VIP] %aqua_rank% %player_name%: %message%"
+  ENABLED: "&aVIP chat enable"
+  DISABLED: "&cVIP chat disable"

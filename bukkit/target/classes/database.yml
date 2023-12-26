@@ -1,0 +1,12 @@
+MONGO:
+  HOST: "127.0.0.1"
+  PORT: 27017
+  DATABASE: "core"
+  AUTH:
+    ENABLED: true
+    USERNAME: "user"
+    PASSWORD: "gang"
+    AUTH-DATABASE: "admin"
+
+MONGO-URI:
+  Bamboo: ""

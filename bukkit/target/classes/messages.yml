@@ -1,0 +1,37 @@
+MESSAGES:
+
+  # ~ Main Messages
+
+  NO-PERMISSIONS: "&cYou do not have permissions to use this command."
+  NO-CONSOLE: "&cThis command can only be executed by players."
+  OFFLINE-PLAYER: "&cPlayer is currently offline."
+  INVALID-NUMBER: "&cInvalid Number."
+
+  # ~ Server Message
+
+  SERVER:
+    NOT-FOUND: "&cThe server you are trying to access does not exist."
+    ALREADY-CONNECTED: "&cYou are already connected to the server."
+    CONNECTING: "&eYou have been sent to server &c%server%&e."
+
+  # ~ Ping Message
+
+  PING-MESSAGES:
+    SOUND: "NOTE_PLING"
+    DEFAULT: "&eYour ping is &f<ping>&ems"
+    OTHER: "&b<target>''s &eping is &f<ping>&ems"
+
+  # ~ GeoIP
+
+  GEO-IP:
+    COUNTRY: "&b%player%''s &ecountry is &f%country%&e."
+
+  # ~ Coins Messages
+
+  COINS:
+    COINS: "&eYour Coins is &a$%amount%&e."
+    COINS-TARGET: "&a%target% &amount is &a$%amount%&e."
+    GIVE: "&eYou have successfully added &a$%amount% &eto &a%target% &eaccount."
+    GIVE-TARGET: "&a%player% &ehas added &a$%amount% &eto your account."
+    SET: "&eYou have successfully set Coins of &a%target% &eto &a$%amount%&e."
+    SET-TARGET: "&a%player% &ehas set your coins to &a$%amount%&e."

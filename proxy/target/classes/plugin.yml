@@ -1,0 +1,4 @@
+name: Basic
+version: 0.3
+main: dev.wacho.proxy.BasicProxy
+author: NoWacho

@@ -1,0 +1,13 @@
+TITLE: "&8Leaderboard"
+SIZE: 3
+
+ELO:
+  ENABLED: true
+  ITEM: "WATCH"
+  DATA: 0
+  SLOT: 16
+  DISPLAY-NAME: "&cElo Leaderboard"
+  LORE:
+    FOOTERS: "&8&m--------------------------------"
+    FORMAT-FIRST: "&6&l1. &r%player% &7- &c%elo%"
+    FORMAT: "&7%top%. &r%player% &7- &c%elo%"

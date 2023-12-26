@@ -1,0 +1,21 @@
+TAGS-MENU:
+  ACCESS:
+    DISPLAY-NAME: "&a%tag% Tag"
+    DESCRIPTION:
+      - "&7Displayed as: %tagFormat%"
+      - ""
+      - "&eClick to select %tag% tag."
+  NOT-ACCESS:
+    DISPLAY-NAME: "&a%tag% Tag"
+    DESCRIPTION:
+      - "&7Displayed as: %tagFormat%"
+      - ""
+      - "&cYou are not allowed to use this tag!"
+  REMOVE:
+    DISPLAY-NAME: "&a%tag% Tag"
+    MATERIAL: ""
+    DATA: ""
+    DESCRIPTION:
+      - "&7Displayed as: %tagFormat%"
+      - ""
+      - "&eClick to select %tag% tag."

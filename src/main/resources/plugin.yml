@@ -1,5 +1,0 @@
-name: Basic
-version: 1.0.1
-main: dev.wacho.basic.Basic
-author: NoWacho
-depend: ["PlaceholderAPI", "ProtocolLib"]

@@ -1,0 +1,283 @@
+# ~ Header Panel
+
+HEADER-TEXT: "&4&lVelnox Network"
+
+# ~ Footer Panel
+
+FOOTER-TEXT: "&7There are &f%bungee_total% &7players in the network."
+
+# ~ Header Animated Panel
+
+HEADER-ANIMATED:
+  ENABLED: true
+  INTERVAL: 0.3
+  HEADER:
+    - "&4&lVelnox"
+    - "&4&lVelno"
+    - "&4&lVeln"
+    - "&4&lVel"
+    - "&4&lVe"
+    - "&4&l"
+    - "&4&lV"
+    - "&4&lVe"
+    - "&4&lVel"
+    - "&4&lVeln"
+    - "&4&lVelno"
+    - "&4&lVelnox"
+
+# ~ Footer Animated Panel
+
+FOOTER-ANIMATED:
+  ENABLED: true
+  INTERVAL: 1.5
+  FOOTER:
+    - "   &7Velnox.club"
+    - "   &astore.velnox.club"
+    - "   &9discord.gg/velnox"
+
+# ~ Tablist Panel
+
+LEFT:
+  "1":
+    TEXT: ""
+    SKIN: ""
+  "2":
+    TEXT: ""
+    SKIN: ""
+  "3":
+    TEXT: ""
+    SKIN: ""
+  "4":
+    TEXT: ""
+    SKIN: ""
+  "5":
+    TEXT: ""
+    SKIN: ""
+  "6":
+    TEXT: ""
+    SKIN: ""
+  "7":
+    TEXT: ""
+    SKIN: ""
+  "8":
+    TEXT: ""
+    SKIN: ""
+  "9":
+    TEXT: ""
+    SKIN: ""
+  "10":
+    TEXT: ""
+    SKIN: ""
+  "11":
+    TEXT: ""
+    SKIN: ""
+  "12":
+    TEXT: ""
+    SKIN: ""
+  "13":
+    TEXT: ""
+    SKIN: ""
+  "14":
+    TEXT: ""
+    SKIN: ""
+  "15":
+    TEXT: ""
+    SKIN: ""
+  "16":
+    TEXT: ""
+    SKIN: ""
+  "17":
+    TEXT: ""
+    SKIN: ""
+  "18":
+    TEXT: "&aStore"
+    SKIN: "%store%"
+  "19":
+    TEXT: "&fstore.velnox.club"
+    SKIN: ""
+  "20":
+    TEXT: ""
+    SKIN: ""
+CENTER:
+  "1":
+    TEXT: ""
+    SKIN: ""
+  "2":
+    TEXT: "&4&lBasic"
+    SKIN: ""
+  "3":
+    TEXT: "&7Players: &f%player_online%&7/&f300"
+    SKIN: ""
+  "4":
+    TEXT: ""
+    SKIN: ""
+  "5":
+    TEXT: ""
+    SKIN: ""
+  "6":
+    TEXT: ""
+    SKIN: ""
+  "7":
+    TEXT: ""
+    SKIN: ""
+  "8":
+    TEXT: ""
+    SKIN: ""
+  "9":
+    TEXT: ""
+    SKIN: ""
+  "10":
+    TEXT: ""
+    SKIN: ""
+  "11":
+    TEXT: ""
+    SKIN: ""
+  "12":
+    TEXT: ""
+    SKIN: ""
+  "13":
+    TEXT: ""
+    SKIN: ""
+  "14":
+    TEXT: ""
+    SKIN: ""
+  "15":
+    TEXT: ""
+    SKIN: ""
+  "16":
+    TEXT: ""
+    SKIN: ""
+  "17":
+    TEXT: ""
+    SKIN: ""
+  "18":
+    TEXT: "&9Discord"
+    SKIN: "%discord%"
+  "19":
+    TEXT: "&fdiscord.gg/velnox"
+    SKIN: ""
+  "20":
+    TEXT: ""
+    SKIN: ""
+RIGHT:
+  "1":
+    TEXT: ""
+    SKIN: ""
+  "2":
+    TEXT: ""
+    SKIN: ""
+  "3":
+    TEXT: ""
+    SKIN: ""
+  "4":
+    TEXT: ""
+    SKIN: ""
+  "5":
+    TEXT: "&cYour Statics"
+    SKIN: "%ping%"
+  "6":
+    TEXT: "&7Kills: &f%statistic_player_kills%"
+    SKIN: ""
+  "7":
+    TEXT: "&7Deaths: &f%statistic_deaths%"
+    SKIN: ""
+  "8":
+    TEXT: "&7Credits: &a$0" #vault_eco_balance_fixed
+    SKIN: ""
+  "9":
+    TEXT: ""
+    SKIN: ""
+  "10":
+    TEXT: ""
+    SKIN: ""
+  "11":
+    TEXT: ""
+    SKIN: ""
+  "12":
+    TEXT: ""
+    SKIN: ""
+  "13":
+    TEXT: "&cYour Location"
+    SKIN: "%world%"
+  "14":
+    TEXT: "%player_location%"
+    SKIN: ""
+  "15":
+    TEXT: ""
+    SKIN: ""
+  "16":
+    TEXT: ""
+    SKIN: ""
+  "17":
+    TEXT: ""
+    SKIN: ""
+  "18":
+    TEXT: "&bTwitter"
+    SKIN: "%twitter%"
+  "19":
+    TEXT: "&f@VelnoxClub"
+    SKIN: ""
+  "20":
+    TEXT: ""
+    SKIN: ""
+EXTERNAL-RIGHT:
+  "1":
+    TEXT: ""
+    SKIN: ""
+  "2":
+    TEXT: ""
+    SKIN: ""
+  "3":
+    TEXT: ""
+    SKIN: ""
+  "4":
+    TEXT: ""
+    SKIN: ""
+  "5":
+    TEXT: ""
+    SKIN: ""
+  "6":
+    TEXT: ""
+    SKIN: ""
+  "7":
+    TEXT: ""
+    SKIN: ""
+  "8":
+    TEXT: ""
+    SKIN: ""
+  "9":
+    TEXT: ""
+    SKIN: ""
+  "10":
+    TEXT: ""
+    SKIN: ""
+  "11":
+    TEXT: ""
+    SKIN: ""
+  "12":
+    TEXT: ""
+    SKIN: ""
+  "13":
+    TEXT: ""
+    SKIN: ""
+  "14":
+    TEXT: ""
+    SKIN: ""
+  "15":
+    TEXT: ""
+    SKIN: ""
+  "16":
+    TEXT: ""
+    SKIN: ""
+  "17":
+    TEXT: ""
+    SKIN: ""
+  "18":
+    TEXT: ""
+    SKIN: ""
+  "19":
+    TEXT: ""
+    SKIN: ""
+  "20":
+    TEXT: ""
+    SKIN: ""
